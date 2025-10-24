@@ -36,18 +36,32 @@
 
 
 
-document.getElementById("clk").addEventListener(`click`,()=>{
+// document.getElementById("clk").addEventListener(`click`,()=>{
 
-    let x=parseInt(document.getElementById("number").value);  
-    let str=``
-    for(i=1;i<=x;i++)
-        {
+//     let x=parseInt(document.getElementById("number").value);  
+//     let str=``
+//     for(i=1;i<=x;i++)
+//         {
 
-            str+=`<li>${i}</li>`
-        }  
-        document.getElementById("list").innerHTML=str
-})
-
-
+//             str+=`<li>${i}</li>`
+//         }  
+//         document.getElementById("list").innerHTML=str
+// })
 
 
+
+
+
+ document.getElementById("clk").addEventListener(`click`,()=>{
+
+    let x=parseInt(document.getElementById("number").value);
+
+    for(i=1;i<=x;i++){
+       let a= document.createElement("li")
+       a.innerHTML=i;
+       a.style.color="red"
+       a.style.listStyle="none"
+       document.getElementById("list").appendChild(a)
+    }
+   
+ }) 
