@@ -19,3 +19,20 @@
 
 
 
+// function formsbmt()
+// {
+//     // let a=document.getElementById("name").value;
+//     // let b=document.getElementById("email").value;
+//      let a=parseInt(document.getElementById("name").value);
+//     let b=parseInt(document.getElementById("email").value);
+//     let c=a+b
+//     console.log(c);
+//     let res=document.getElementById("result").textContent=c;
+//     // let res=document.getElementById("result").innerHTML=`<p>hai</p>`;
+//     // let res=document.getElementById("result").textContent=`<p>hai</p>`;
+    
+// }
+
+
+
+
