@@ -36,3 +36,18 @@
 
 
 
+document.getElementById("clk").addEventListener(`click`,()=>{
+
+    let x=parseInt(document.getElementById("number").value);  
+    let str=``
+    for(i=1;i<=x;i++)
+        {
+
+            str+=`<li>${i}</li>`
+        }  
+        document.getElementById("list").innerHTML=str
+})
+
+
+
+
